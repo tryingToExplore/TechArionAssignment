@@ -13,7 +13,8 @@ postData(){
     axios.post("https://admin.srkprojects.com/web/api/client/v1/contact-us/",
     {name:'Vivek',
     email:"mannevivek21@gmail.com",
-    message:"Post data in api"}
+    message:"Post data in api"
+}
     ).then((res) => {
         console.log(res.data,"res");
         this.setState({data:true})
